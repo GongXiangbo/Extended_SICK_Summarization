@@ -73,7 +73,7 @@ In order to include our extensions please add the following parameters (singular
 - use_random_replacement: If True randomly replace words in the sentence that are not stop words with one of its synonyms chosen at random with probability p.
 - p: The probability of random deletion or random replacement.
 
-*Note*: our implementations only work with Samsum dataset and SICK model, translate_emoticons and remove_emoticons cannot use together, random_replacement and random_deletion cannot use together.
+*Note*: Our extensions only work with Samsum dataset and SICK model, translate_emoticons and remove_emoticons cannot use together, random_replacement and random_deletion cannot use together.
 
 ## Inference
 Obtain inferences executing the next command:
