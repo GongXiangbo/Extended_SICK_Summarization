@@ -70,9 +70,9 @@ In order to include our extensions please add the following parameters (singular
 - model_name: Specify either "facebook/bart-large-xsum" or "facebook/bart-large-cnn"
 - use_translate_emoticons：If True emoticons in the dataset will be translated into texts.
 - use_remove_emoticons: If True emoticons in the dataset will be removed.
+- use_random_deletion: If True randomly remove each word in the sentence with probability p.
 - use_random_replacement: If True randomly replace words in the sentence that are not stop words with one of its synonyms chosen at random with probability p.
-- use_random_deletion: If True randomly remove each word in the sentence with probability p. 
-- p: The probability of random replacement or random deletion.
+- p: The probability of random deletion or random replacement.
 
 *Note*: our implementations only work with Samsum dataset and SICK model, translate_emoticons and remove_emoticons cannot use together, random_replacement and random_deletion cannot use together.
 
