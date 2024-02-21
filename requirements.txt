@@ -11,3 +11,4 @@ accelerate
 spacy
 tk
 gensim
+emoji
