@@ -16,11 +16,11 @@ To utilize our enhanced abstractive chat summarization framework we suggest the 
 
 Clone the repository:
 ```
-https://github.com/GongXiangbo/Extended_SICK_Summarization.git
+git clone https://github.com/GongXiangbo/Manipulating-Emoticons-and-Data-Augmentation-for-Abstractive-Dialogue-Summarzation.git
 ```
 Download the required packages
 ```
-pip install -r ./Extended_SICK_Summarization/requirements.txt
+pip install -r ./Manipulating-Emoticons-and-Data-Augmentation-for-Abstractive-Dialogue-Summarzation/requirements.txt
 ```
 Run the command:
 ```
