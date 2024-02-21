@@ -1,4 +1,4 @@
-# Extended SICK Summarization
+# Manipulating Emoticons and Data Augmentation for Abstractive Dialogue Summarzation
 
 Colab example: [facebook_bart_large_xsum.ipynb](./facebook_bart_large_xsum.ipynb)
 
