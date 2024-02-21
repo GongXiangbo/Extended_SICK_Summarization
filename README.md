@@ -74,7 +74,7 @@ In order to include our extensions please add the following parameters (singular
 - use_random_deletion: If True randomly remove each word in the sentence with probability p. 
 - p: The probability of random replacement or random deletion.
 
-*Note*: our implementations only work with Samsum dataset and SICK model, random_replacement and random_deletion cannot use together.
+*Note*: our implementations only work with Samsum dataset and SICK model, translate_emoticons and remove_emoticons cannot use together, random_replacement and random_deletion cannot use together.
 
 ## Inference
 Obtain inferences executing the next command:
