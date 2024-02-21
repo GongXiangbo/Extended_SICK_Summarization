@@ -6,11 +6,13 @@ Colab example: [facebook_bart_large_xsum.ipynb](./facebook_bart_large_xsum.ipynb
 
 In this study, We tried the new dialog summarization model bart-large-cnn, which is a bart model fine-tuned on the CNN/Daily Mail dataset. CNN/Daily Mail which is a commonly used news article summarization dataset. We also tried data augmentation, including the following components:
 
-1. **Emoticons Removemnt:** Remove the emoticons.
+1. **Translate Emoticons:** Translate the emoticons into texts.
 
-2. **Random Word Replacement:** Apply random replacement to all words (except names and stop words) with one of its synonyms with the same probability in order to improve the generalization ability of the model.
+2. **Remove Emoticons:** Remove the emoticons.
 
-3. **Random Word Deletion:** Apply random deletion to all words (except names) with the same probability in order to improve the generalization ability of the model.
+3. **Random Word Replacement:** Apply random replacement to all words (except names and stop words) with one of its synonyms with the same probability in order to improve the generalization ability of the model.
+
+4. **Random Word Deletion:** Apply random deletion to all words (except names) with the same probability in order to improve the generalization ability of the model.
 
 ## Setting
 To utilize our enhanced abstractive chat summarization framework we suggest the use of Google Colab and the execution of the following steps.
