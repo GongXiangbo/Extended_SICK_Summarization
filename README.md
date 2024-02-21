@@ -63,7 +63,7 @@ To train the original SICK model execute the following command:
 ```
 python3 ./Extended_SICK_Summarization/src/train_summarization_context.py --finetune_weight_path="./new_weights_sick" --best_finetune_weight_path="./new_weights_sick_best" --dataset_name="samsum" --use_paracomet=True --model_name="facebook/bart-large-xsum" --relation "xIntent" --epoch=1 --use_sentence_transformer True
 ```
-During training, when it outputs ```wandb: Enter your choice:``` you can simplely enter 3.
+During training, when it outputs ```wandb: Enter your choice:```, you can just enter 3.
 
 In order to include our extensions please add the following parameters (singularly or as in supported combinations below):
 
