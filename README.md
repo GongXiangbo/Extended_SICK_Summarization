@@ -16,11 +16,11 @@ To utilize our enhanced abstractive chat summarization framework we suggest the 
 
 Clone the repository:
 ```
-git clone https://github.com/GongXiangbo/Manipulating-Emoticons-and-Data-Augmentation-for-Abstractive-Dialogue-Summarzation.git
+git clone https://github.com/GongXiangbo/Extended_SICK_Summarization.git
 ```
 Download the required packages
 ```
-pip install -r ./Manipulating-Emoticons-and-Data-Augmentation-for-Abstractive-Dialogue-Summarzation/requirements.txt
+pip install -r ./Extended_SICK_Summarization/requirements.txt
 ```
 Run the command:
 ```
@@ -61,7 +61,7 @@ To process the commonsense data [PARACOMET](https://github.com/skgabriel/paracom
 To train the original SICK model execute the following command: 
 
 ```
-python3 ./Manipulating-Emoticons-and-Data-Augmentation-for-Abstractive-Dialogue-Summarzation/src/train_summarization_context.py --finetune_weight_path="./new_weights_sick" --best_finetune_weight_path="./new_weights_sick_best" --dataset_name="samsum" --use_paracomet=True --model_name="facebook/bart-large-xsum" --relation "xIntent" --epoch=1 --use_sentence_transformer True
+python3 ./Extended_SICK_Summarization/src/train_summarization_context.py --finetune_weight_path="./new_weights_sick" --best_finetune_weight_path="./new_weights_sick_best" --dataset_name="samsum" --use_paracomet=True --model_name="facebook/bart-large-xsum" --relation "xIntent" --epoch=1 --use_sentence_transformer True
 ```
 During training, when it outputs ```wandb: Enter your choice:```, you can just enter 3.
 
@@ -79,5 +79,5 @@ In order to include our extensions please add the following parameters (singular
 ## Inference
 Obtain inferences executing the next command:
 ```
-python3 ./Manipulating-Emoticons-and-Data-Augmentation-for-Abstractive-Dialogue-Summarzation/src/inference.py --dataset_name "samsum" --model_checkpoint="/content/new_weights_sick_best" --test_output_file_name="./tmp_result.txt" --use_paracomet True --num_beams 20 --train_configuration="full" --use_sentence_transformer True
+python3 ./Extended_SICK_Summarization/src/inference.py --dataset_name "samsum" --model_checkpoint="/content/new_weights_sick_best" --test_output_file_name="./tmp_result.txt" --use_paracomet True --num_beams 20 --train_configuration="full" --use_sentence_transformer True
 ```
