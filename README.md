@@ -2,6 +2,8 @@
 
 Baseline colab example: [facebook_bart_large_xsum.ipynb](./facebook_bart_large_xsum.ipynb)
 
+BART-large-cnn model colab example: [facebook_bart_large_cnn.ipynb](./facebook_bart_large_cnn.ipynb)
+
 Translate Emoticons colab example: [facebook_bart_large_xsum_te.ipynb](./facebook_bart_large_xsum_te.ipynb)
 
 ## Overview
