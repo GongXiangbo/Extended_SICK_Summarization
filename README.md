@@ -1,4 +1,4 @@
-# Manipulating Emoticons and Data Augmentation for Abstractive Dialogue Summarzation
+# Manipulating Emoticons and Data Augmentation for Abstractive Dialogue Summarization
 
 Baseline colab example: [facebook_bart_large_xsum.ipynb](./facebook_bart_large_xsum.ipynb)
 
