@@ -13,8 +13,8 @@ In this study, We tried the new dialog summarization model bart-large-cnn, which
 
 We also tried to do data augmentation, including the following components:
 
-1. **Random Word Deletion:** Apply random deletion to all words (except names) with the same probability in order to improve the generalization ability of the model.
-2. **Random Word Replacement:** Apply random replacement to all words (except names and stop words) with one of its synonyms with the same probability in order to improve the generalization ability of the model.
+1. **Random Deletion:** Apply random deletion to all words (except names) with the same probability in order to improve the generalization ability of the model.
+2. **Random Replacement:** Apply random replacement to all words (except names and stop words) with one of its synonyms with the same probability in order to improve the generalization ability of the model.
 
 ## Setting
 To utilize our enhanced abstractive chat summarization framework we suggest the use of Google Colab and the execution of the following steps.
