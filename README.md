@@ -1,5 +1,7 @@
 # Manipulating Emoticons and Data Augmentation for Abstractive Dialogue Summarization
 
+Our paper: [paper](./Manipulating_Emoticons_and_Data_Augmentation_for_Abstractive_Dialogue_Summarization.pdf)
+
 Baseline colab example: [facebook_bart_large_xsum.ipynb](./facebook_bart_large_xsum.ipynb)
 
 BART-large-cnn model colab example: [facebook_bart_large_cnn.ipynb](./facebook_bart_large_cnn.ipynb)
