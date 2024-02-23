@@ -23,7 +23,7 @@ We also tried to do data augmentation, including the following components:
 2. **Random Replacement:** Apply random replacement to all words (except names and stop words) with one of its synonyms with the same probability in order to improve the generalization ability of the model.
 
 ## Setting
-To utilize our enhanced abstractive chat summarization framework we suggest the use of Google Colab and the execution of the following steps.
+To utilize our framework we suggest to use Google Colab, and the execution of the following steps.
 
 Clone the repository:
 ```
