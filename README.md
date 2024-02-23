@@ -1,5 +1,7 @@
 # Manipulating Emoticons and Data Augmentation for Abstractive Dialogue Summarization
 
+This is the project of course "Deep natural language processing" in Politecnico di Torino. The original github repository is: [SICK_Summarization](https://github.com/SeungoneKim/SICK_Summarization)
+
 Our report: [report](./Manipulating_Emoticons_and_Data_Augmentation_for_Abstractive_Dialogue_Summarization.pdf)
 
 Baseline colab example: [facebook_bart_large_xsum.ipynb](./facebook_bart_large_xsum.ipynb)
