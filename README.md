@@ -1,6 +1,6 @@
 # Manipulating Emoticons and Data Augmentation for Abstractive Dialogue Summarization
 
-This is the project of course "Deep natural language processing" in Politecnico di Torino. The original github repository is: [SICK_Summarization](https://github.com/SeungoneKim/SICK_Summarization)
+This is the text summarization project for the "Deep Natural Language Processing" course at Politecnico di Torino. The original github repository is: [SICK_Summarization](https://github.com/SeungoneKim/SICK_Summarization)
 
 Our report: [report](./Manipulating_Emoticons_and_Data_Augmentation_for_Abstractive_Dialogue_Summarization.pdf)
 
