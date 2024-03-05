@@ -2,7 +2,7 @@
 
 This is the text summarization project for the "Deep Natural Language Processing" course at Politecnico di Torino. The original github repository is: [SICK_Summarization](https://github.com/SeungoneKim/SICK_Summarization)
 
-Our report: [report](https://drive.google.com/file/d/1jTBQcF4LwiFLDF78urXy2EEPnPp3ecUX/view?usp=sharing)
+Our report: [report](https://drive.google.com/file/d/1a3tCH7QNtrgFYw5FJ6U83t9oNGF_b75K/view?usp=sharing)
 
 Baseline colab example: [facebook_bart_large_xsum.ipynb](./facebook_bart_large_xsum.ipynb)
 
